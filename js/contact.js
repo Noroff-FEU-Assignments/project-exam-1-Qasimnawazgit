@@ -11,7 +11,8 @@ function contactForm(e) {
   let message = document.querySelector("#message").value;
   let messageMsg = document.querySelector("#messageMsg");
 
-  let emailRegx = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  let emailRegx =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   nameMsg.innerHTML = ``;
 
   emailMsg.innerHTML = ``;
@@ -27,7 +28,7 @@ function contactForm(e) {
     nameMsg.innerHTML = `Name should be more than 5 characters long`;
     nameMsg.style.color = "red";
     return;
-  }  else if (email.length < 1) {
+  } else if (email.length < 1) {
     emailMsg.innerHTML = `Email is required`;
     emailMsg.style.color = "red";
     return;
@@ -35,7 +36,7 @@ function contactForm(e) {
     emailMsg.innerHTML = `Email is invalid`;
     emailMsg.style.color = "red";
     return;
-  }else if (subject.length < 1) {
+  } else if (subject.length < 1) {
     subjectMsg.innerHTML = `Subject is required`;
     subjectMsg.style.color = "red";
     return;
@@ -53,5 +54,12 @@ function contactForm(e) {
     return;
   }
   alert("Submitted Successfully");
-  // e.preventDefault();
+  nameMsg.innerHTML = ``;
+  name.innerHTML = "";
+  emailMsg.innerHTML = ``;
+  email.innerHTML = "";
+  messageMsg.innerHTML = ``;
+  message.innerHTML = "";
+  subjectMsg.innerHTML = ``;
+  subject.innerHTML = "";
 }

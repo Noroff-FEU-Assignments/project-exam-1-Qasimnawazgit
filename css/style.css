@@ -342,6 +342,9 @@ section .card {
   margin: 1rem;
   box-shadow: 0.5rem 0.5rem 0.5rem grey;
 }
+.card-image img{
+  height: 25rem;
+}
 .card-image {
   transition: 0.4s;
 }
@@ -420,6 +423,10 @@ section .card {
   text-align: center;
 }
 
+.contact .card, .about .card{
+  transition: 0s;
+  transform: scale(1);
+}
 /* Footer */
 
 footer {
