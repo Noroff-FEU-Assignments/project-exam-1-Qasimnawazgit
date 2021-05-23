@@ -3,19 +3,19 @@
         <li>
           <div id="top-menu-icons">
             <i class="fas fa-map-marker-alt"></i>
-            <a href="#">715 E 4th St, Richmond</a>
+            <a href="#">Oslo, Norway</a>
           </div>
         </li>
         <li>
           <div id="top-menu-icons">
             <i class="fas fa-phone-volume"></i>
-            <a href="#">+92-321-5019963</a>
+            <a href="#">+123-456-789</a>
           </div>
         </li>
         <li>
           <div id="top-menu-icons">
             <i class="fas fa-envelope"></i>
-            <a href="#">kbhutta80@gmail.com</a>
+            <a href="#">flower@xyz.com</a>
           </div>
         </li>
       </ul>

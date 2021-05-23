@@ -36,6 +36,7 @@ async function fetchRes(url) {
 fetchRes(responseUrl);
 
 function populatePostsSection(post_id, data) {
+
   let section = ``;
 
   data.map((v, i) => {
